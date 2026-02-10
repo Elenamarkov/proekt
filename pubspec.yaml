@@ -1,0 +1,31 @@
+name: dream_scape
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_nav_bar: ^5.0.7
+  provider: ^6.1.5+1
+  http: ^1.1.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/airplane_icon.png
+    - lib/assets/images/flight_image.png
+    - lib/assets/images/hotel_image.png
+    - lib/assets/images/taxi_image.png
